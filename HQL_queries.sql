@@ -212,7 +212,7 @@ stored as textfile;
 -- dynamic partition strict mode requires at least one static partition column. to turn this off 
 -- set hive.exec.dynamic.partition.mode=nonstrict
 
-set hive.exec.max.dynamic.partitions.pernode=200;
+-- set hive.exec.max.dynamic.partitions.pernode=200;
 
 /* 
 insert overwrite table car_insurance_data_partitioned_new
